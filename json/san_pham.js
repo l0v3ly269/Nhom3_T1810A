@@ -683,7 +683,7 @@ var san_pham = [
         id_sp: "1",
         ten_sp: "Tủ rượu Status",
         ma_sp: "HMCADNOV104",
-        gia_sp: HMCADNOV104,
+        gia_sp: 32292000,
         id_lsp: "22",
         id_lp: "3"
     },
