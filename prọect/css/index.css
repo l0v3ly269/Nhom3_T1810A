@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Times New Roman";
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/*header*/
+header{
+
+}
+.header-top{
+    /*font-size: 12px;*/
+    background-color: #F4F4F4;
+    line-height: 3;
+}
+.header-top a{
+    color: grey;
+}
+.header-top a:hover {
+    color: #F36F21;
+}
+.header-top-left li{
+    float: left;
+    padding-right: 3%;
+    text-decoration: none;
+}
+.header-top-right li{
+    float: right;
+    padding-left: 5%;
+}
+.header-top-right i{
+    padding-right: 5px;
+}
+#cartQty {
+    border-radius: 3px;
+    background-color: #f36f21;
+    padding: 1px 6px;
+    color: #fff;
+}
+
+.header-content{
+    padding: 2% 0;
+}
+.header-content form{
+    width: 90%;
+}
+.header-content-mid input{
+    padding: 5.5%;
+}
+
+
+.find_showrroom {
+    background: url(../images/icon-find-showroom.png) left top no-repeat;
+    padding-left: 48px;
+    font-size: 16px;
+    display: block;
+    height: 47px;
+    color: #676767;
+}
+.find_showrroom span{
+    line-height: 1.1;
+    position: relative;
+    top: 10%;
+    left: 4%;
+}
+.find_showrroom:hover span{
+    color: #F36F21;
+}
+.hotline_support {
+    background: url(../images/icon-hotline.png) no-repeat;
+    padding-left: 54px;
+    display: block;
+    padding-top: 0;
+    color: #676767;
+    padding-top: 3px;
+    height: 47px;
+    font-size: 12px;
+}
+.hotline_support strong{
+    color: #f36f21;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.menu-header{
+    font-size: 13px;
+    background-color: #222222;
+    height: 52px;
+    position: relative;
+}
+.nav li:hover a{
+    color: #F36F21;
+    border-bottom: 2px solid #F36F21;
+}
+
+.nav-block{
+    /*position: relative;*/
+}
+.nav-hover{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 99;
+    border-bottom: 2px solid grey;
+    border-radius: 0 0 5px;
+    line-height: 2;
+    padding: 1% 0;
+}
+.nav-hover a{
+    font-size: 14px;
+    font-weight: 300;
+    color: grey;
+}
+.hover_2{
+    display: none;
+}
+.block_2{
+    display: block;
+}
+
+.section_1{
+    margin: 3% 0;
+}
+.row_categori{
+    margin-bottom: 20px;
+}
+
+/*.category{*/
+    /*margin-right: -5px;*/
+    /*margin-left: -5px;*/
+/*}*/
+
+.icatfeatured{
+    position: relative;
+    /*padding-bottom: 0;*/
+    display: block;
+    /*margin-bottom: 16px;*/
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.icatfeatured .hover, .icatfeaturedmore .hover {
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: all .5s ease 0s;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.3) 100%);
+}
+.ihover{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0;
+    font-family: "Times New Roman";
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+}
+.ihover >h4,p,span{
+    /*font-family: "Times New Roman";*/
+    /*font-weight: 500;*/
+    /*line-height: 1.1;*/
+    /*color: white;*/
+}
+
+.section_3{
+    text-align: center;
+    background-color: #F7F7F7;
+    margin: 1% 0;
+}
+.section_3 a{
+    text-decoration: none;
+}
+.section_3_1 p{
+    width: 75%;
+    margin: 3% auto;
+}
+.section_3_2 h4{
+    color: black;
+}
+.section_3_2 p{
+    color: grey;
+}
+.section_3_2 a:hover h4{
+    color: #f36f21;
+}
+
+.section_4 a:hover h4{
+    color: #f36f21;
+}
+
+.section_4{
+    text-align: center;
+    margin: 1% 0;
+}
+.section_4 a{
+    text-decoration: none;
+}
+.section_4_1 p{
+    width: 75%;
+    margin: 3% auto;
+}
+.section_4_2 h4{
+    color: black;
+}
+.section_4_2 p{
+    color: grey;
+}
+.section_4_2 a:hover h4{
+    color: #f36f21;
+}
+
+.section_4 a:hover h4{
+    color: #f36f21;
+}
+
+/*footer*/
+footer{
+    margin-top: 30px;
+}
+
+.footer-top{
+    background-color: #F4F4F4;
+    padding: 1.5% 0;
+}
+
+.footer-mid{
+    line-height: 2;
+    background-color: #F7F7F7;
+}
+.footer-mid a{
+    text-decoration: none;
+    color: black;
+}
+.footer-mid i{
+    font-size: 28px;
+    margin-right: 5%;
+}
+
+.footer-bottom{
+    padding: 15px;
+    background-color: #333333;
+}
+
+.footer-bottom a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 3%;
+}
+
+.footer-bottom span{
+    color: grey;
+    font-size: 12px;
+}
